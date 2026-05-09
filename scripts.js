@@ -1,4 +1,4 @@
-let endereco = "https://api.groq.com/openai/v1/chat/completions"
+let endereco = "https://openrouter.ai/api/v1/chat/completions"
 
 async function gerarCodigo() {
 
@@ -15,10 +15,10 @@ async function gerarCodigo() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer : 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" // troca pela nova chave!
+            "Authorization": "Bearer : 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" // troca pela nova chave!
         },
         body: JSON.stringify({
-            "model": "llama-3.3-70b-versatile",
+            "model": "mistralai/mistral-7b-instruct",
             "messages": [
                 {
                     "role": "user",
