@@ -21,7 +21,7 @@ async function gerarCodigo() {
             "Content-Type": "application/json",
 
             // Sua chave de acesso — como uma senha para usar a API
-            "Authorization": "Bearer (sua chave aqui)"
+            "Authorization": "Bearer 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"
         },
 
         // "body" = o conteúdo que estamos enviando
