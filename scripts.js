@@ -14,7 +14,7 @@ async function gerarCodigo() {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": "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"
+                "Authorization": "Bearer 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"
             },
             body: JSON.stringify({
                 "model": "mistralai/mistral-7b-instruct",
