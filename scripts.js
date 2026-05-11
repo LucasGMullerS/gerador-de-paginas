@@ -17,7 +17,7 @@ async function gerarCodigo() {
                 "Authorization": "Bearer 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"
             },
             body: JSON.stringify({
-                "model": "mistralai/mistral-7b-instruct",
+                "model": "mistralai/mistral-7b-instruct:free",
                 "messages": [
                     { "role": "user", "content": textarea },
                     { "role": "system", "content": "Aja como um Desenvolvedor Front-end Sênior. Crie uma Landing Page completa, moderna e responsiva em um único arquivo HTML5 com CSS3 interno. A página deve conter: Navbar, Hero Section, Serviços em cards, Sobre e Rodapé. Responda apenas com código. Idioma: Português do Brasil." }
